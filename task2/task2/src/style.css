@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font:400 15px/1.8 "Lato", sans-serif;
+}
+
+.content1{
+  background-image: url("https://i.imgur.com/tZo4DUO.jpeg");
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  position: absolute;
+  font-size: 45px;
+  top: 0;
+  left: 0;
+}
+
+.content2{
+  background-image: url('https://www.pngitem.com/pimgs/m/50-507762_clouds-png-photo-clouds-with-no-background-transparent.png');
+  text-align: center;
+  opacity: 0.65;
+  padding: 70px 90px;
+  letter-spacing: 3px;
+}
+
+.content3{
+  background-image: url("https://i.pinimg.com/originals/67/d5/8d/67d58da2e300deb4f6357933a7f43d24.jpg");
+  width: 100vw;
+  height: 100vh;
+  padding: 70px 90px;
+}
+
+h2{
+  position: absolute;
+  font-size: 45px;
+  top: 0;
+  right: 0;
+}
+
+.content1, .content3{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-device-width: 1200px){
+  .content1, .content3{
+    background-attachment: scroll;
+  }
+}
+
+
+
+
+
